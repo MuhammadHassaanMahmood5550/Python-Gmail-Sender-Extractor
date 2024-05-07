@@ -2,8 +2,8 @@ import imaplib
 import email
 import sqlite3
 
-username = 'johnobrient@gmail.com'
-password = 'yfnz ofql lhku mnhd'
+username = 'johnbient@gmail.com'
+password = '###########'
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
 mail.login(username, password)
